@@ -1,0 +1,71 @@
+@import url('./index.css');
+
+.brand-logo img {
+    max-width: 30px;
+}
+
+.brand-logo span {
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+}
+
+.navbar-nav {
+    gap: 0px 10px;
+    flex-wrap: wrap;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-nav a.active {
+    color: orange;
+}
+
+.active.dropdown .btn{
+    color: orange;
+}
+
+.dropdown .btn,
+.show.dropdown .btn,
+.dropdown .btn:hover,
+.show.dropdown .btn:hover,
+.dropdown .btn:focus,
+.show.dropdown .btn:focus,
+.dropdown .btn:active 
+.show.dropdown .btn:active {
+    background: transparent !important;
+    box-shadow: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    transition: inherit;
+    transform: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+}
+
+.dropdown .btn::before, .dropdown .btn::after {
+    display: none;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #344767;
+}
+
+.dropdown .dropdown-menu::before, 
+.dropdown .dropdown-menu::after{
+    display: none;
+} 
+
+.dropdown-menu,
+.dropdown-menu.show
+ {
+    padding: 5px 20px;
+}
